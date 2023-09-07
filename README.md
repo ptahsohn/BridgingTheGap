@@ -1,9 +1,12 @@
 
 # Experiment #9 (Bridging The Gap)
 
+## Overview
+This is an Android app that generates a dummy QR Code through the Daraja API that in a real world situation can be used to conduct MPESA Transactions using the MPESA app...
+
 ## Table of Contents
 
-1. [Overview](#Overview)
+1. [BackGround](#Background)
 2. [Requirements](#Requirements)
    1. [Daraja Account](#Daraja-Account)
    2. [Access Token](#Access-Token)
@@ -18,8 +21,10 @@
 4. [Screenshot](#Screenshot)
 5. [Trivia](#Trivia)
 
-## Overview
-This is an Android app that generates a dummy QR Code through the Daraja API that in a real world situation can be used to conduct MPESA Transactions using the MPESA app...
+## Background
+- This documentation seeks to provide a detailed, clear and resourceful guide on how to consume the Daraja API in Android...
+- It is based on the Dynamic QR endpoint but can be applied to the others...
+- This app also uses Jetpack Compose to generate the QR Code...
 
 ## Requirements
 Here's a list of what you need to run the app:
@@ -92,7 +97,7 @@ val darajaRequestBody = DarajaRequestBody(
 ### Testing
 - Since the result returns the QR Code in form of an image encoded in the Base64 format, define a function to decode it:
 
-```
+``` kotlin
 fun decodeBase64ToBitmap(base64: String): Bitmap? {
     return try {
         val decodedBytes = Base64.decode(base64, Base64.DEFAULT)
@@ -105,7 +110,7 @@ fun decodeBase64ToBitmap(base64: String): Bitmap? {
 
 - In your screen composable, create a parameter of your DTO's type and create a rememberSaveable variable inside which you will pass the decoder function and then call the DTO object. Pass the variable as a Bitmap inside an Image Composable:
 
-```
+``` kotlin
 @Composable
 fun YourScreen(yourDTO: YourDTO) {
 

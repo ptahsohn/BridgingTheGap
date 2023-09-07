@@ -13,3 +13,6 @@
    2. [Advanced Features](#advanced-features)
 4. [Screenshot](#Screenshot)
 5. [Trivia](#Trivia)
+
+## Overview
+This is an Android app that generates a dummy QR Code through the Daraja API that in a real world situation can be used to conduct MPESA Transactions using the MPESA app... 

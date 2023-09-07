@@ -137,6 +137,7 @@ fun YourScreen(yourDTO: YourDTO) {
 
 ### Sample Screenshot
 ![image](https://github.com/emmanuelmuturia/BridgingTheGap/assets/55001497/a84dd726-ef19-4840-8a6e-7c0dd5de065d)
+![image](https://github.com/emmanuelmuturia/BridgingTheGap/assets/55001497/550f6069-8917-411a-8314-672a381cfe38)
 
 
 ### Trivia

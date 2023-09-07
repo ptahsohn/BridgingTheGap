@@ -57,9 +57,6 @@ android {
 
 dependencies {
 
-    //Zxing Library for Generating QR Code...
-    implementation("com.google.zxing:core:3.5.1")
-
     // Retrofit2
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
@@ -71,9 +68,6 @@ dependencies {
 
     // Kotlin Coroutines...
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
-
-    // Glide...
-    implementation("com.github.bumptech.glide:compose:1.0.0-alpha.1")
 
     // Dagger-Hilt...
     implementation("com.google.dagger:hilt-android:2.47")

@@ -1,4 +1,7 @@
-# Table of Contents
+
+# Experiment #9 (Bridging The Gap)
+
+## Table of Contents
 
 1. [Overview](#Overview)
 2. [Requirements](#Requirements)

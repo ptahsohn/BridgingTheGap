@@ -28,16 +28,16 @@ This is an Android app that generates a dummy QR Code through the Daraja API tha
 
 ## Requirements
 Here's a list of what you need to run the app:
-1. Daraja Account
+1. ### Daraja Account
 - The Daraja API requires that you have an account set up. If you do not have one, feel free to create it [here](https://developer.safaricom.co.ke/)
 
-2. Access Token
+2. ### Access Token
 - This is a String value that will be appended to our API Request for authentication purposes and usually expires after 1 hour. This documentation will walk you through on hopw to access it...
 
-3. API Endpoint
+3. ### API Endpoint
 - The Daraja API actually consists of different endpoints that offer various functionalities related to MPESA. To generate a dynamic MPESA QR Code, we will use the following endpoint: [https://sandbox.safaricom.co.ke/mpesa/qrcode/v1/generate](https://sandbox.safaricom.co.ke/mpesa/qrcode/v1/generate)
 
-4. Postman
+4. ### Postman
 - This tool will be used to generate the Access Token as well as test if the resulting API Request works as expected...
 
 ## Procedure

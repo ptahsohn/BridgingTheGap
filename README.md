@@ -136,9 +136,7 @@ fun YourScreen(yourDTO: YourDTO) {
 - Run the app and test if it works...
 
 ### Sample Screenshot
-![image](https://github.com/emmanuelmuturia/BridgingTheGap/assets/55001497/a84dd726-ef19-4840-8a6e-7c0dd5de065d)
 ![image](https://github.com/emmanuelmuturia/BridgingTheGap/assets/55001497/550f6069-8917-411a-8314-672a381cfe38)
-
 
 ### Trivia
 - To store the Access Token using the Secrets Gradle Plugin, refer to [this video](https://youtu.be/X8lYNW_Or2o?si=dB0nLrMPy19eDNKz)...
